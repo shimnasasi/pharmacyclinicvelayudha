@@ -1,0 +1,12 @@
+.ButtonExploremain {
+  width: 8rem;
+  height: 3rem;
+  gap: 10px;
+  color: var(--yellow);
+  font-size: 20px;
+  background-color: var(--green);
+  color: white;
+  border: none;
+  font-family: "Bebas Neue", sans-serif;
+  cursor: pointer;
+}

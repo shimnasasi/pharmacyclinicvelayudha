@@ -1,0 +1,21 @@
+
+[
+  {
+    "name": "Velayudha vaidhyar",
+    "image":"../../Assets/Images/legacy/1.jpg",
+    "period": "1948-1988",
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "name": "Velayudha vaidhyar",
+   "image": "../../Assets/Images/legacy/2.jpg",
+    "period": "1948-1988",
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "name": "Velayudha vaidhyar",
+   "image": "../../Assets/Images/legacy/3.jpg",
+    "period": "1948-1988",
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  }
+]

@@ -1,0 +1,78 @@
+.footerWrapper {
+  width: 100%;
+  background-color: var(--green);
+  min-height: 290px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leftFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftFooter img {
+  width: 90px;
+}
+.Name {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  text-align: left;
+  gap: 9px;
+}
+.Velayudha {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 20px;
+}
+.pharma {
+  font-weight: 600;
+  font-size: 20.5px;
+  line-height: 20px;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leftSide p {
+  width: 60%;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+.FooterLinks {
+  display: flex;
+  gap: 15px;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+.footerIcons {
+  font-size: 26px;
+  width: 30px;
+  height: 24px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 2px solid;
+}
+.footerlist {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+  text-transform: capitalize;
+  justify-content: end;
+}
+.footerlist a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}

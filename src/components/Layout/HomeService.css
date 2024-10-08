@@ -1,0 +1,43 @@
+.HSWrapper {
+  width: 100%;
+  padding: 5rem 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: var(--white);
+}
+.homeservicepara {
+  text-align: center;
+  width: 64ch;
+  font-size: 20px;
+}
+.serviceslist {
+  display: flex;
+  justify-content: center;
+  padding: 0 5rem;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.experiencehead
+{
+  color: var(--yellow);
+  font-size:50px ;
+  text-align: center;
+}
+@media(max-width:426px){
+  .homeservicepara{
+    width: 80%;
+  }
+  .serviceslist{
+    padding: 0;
+  }
+  .experiencehead
+  {
+    font-size: 40px;
+  }
+}
+

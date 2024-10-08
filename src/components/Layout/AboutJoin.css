@@ -1,0 +1,21 @@
+.aboutjoinmain {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--lightgreen);
+}
+.joindetails {
+  width: 60%;
+  padding-left: 13rem;
+  min-height: 100vh;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+

@@ -1,0 +1,36 @@
+.SingleProductWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--green);
+}
+.SingleProductDetails p {
+  width: 25rem;
+  
+}
+
+.wpIcon {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  border-radius: 100%;
+
+  background-color: #fff;
+}
+.orderBtn {
+  display: flex;
+  align-items: center;
+  color: var(--green);
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 0;
+  font-size: 0.8rem;
+  width: 6rem;
+  background-color: transparent;
+  border: none;
+}
+.waIcon{
+    font-size: 2.3rem;
+    
+}

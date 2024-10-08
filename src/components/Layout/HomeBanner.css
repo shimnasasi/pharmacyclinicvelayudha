@@ -1,0 +1,87 @@
+.homeWrapper {
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: url("../../Assets/Images/home/home.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.content {
+  display: flex;
+  margin-left: 230px;
+  padding-top: 100px;
+  flex-direction: column;
+}
+.pharmabanner {
+  font-size: 2.3rem;
+  color: var(--green);
+  /* border: 1px solid; */
+  height: 40px;
+}
+.pharmabannersub {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  color: var(--green);
+  height: 30px;
+}
+.ayurbanner {
+  font-size: 4rem;
+  color: #999900;
+  height: 70px;
+  font-weight: 600;
+  /* border: 1px solid; */
+}
+.since {
+  font-family: "Anek Malayalam", sans-serif;
+}
+.content p {
+  width: 30%;
+  text-align: justify;
+}
+.content button {
+  width: 8rem;
+  height: 3rem;
+  gap: 10px;
+  color: var(--yellow);
+  font-size: 20px;
+  background-color: var(--green);
+  color: white;
+  border: none;
+  font-family: "Bebas Neue", sans-serif;
+  cursor: pointer;
+}
+@media (max-width: 426px) {
+  .homeWrapper {
+    background: url("../../Assets/Images/home/homemobile.JPG");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
+  .pharmabanner {
+    color: var(--yellow);
+  }
+  .ayurbanner {
+    color: var(--darkgreen);
+    /* font-size: 2rem; */
+  }
+  .content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    padding-top: 0;
+    background-color: #c9f0b572;
+  }
+  .pharmabannersub {
+    color: var(--darkgreen);
+    width: 90%;
+    text-align: center;
+  }
+  .content p {
+    width: 70%;
+    padding: 10px;
+    color: var(--darkgreen);
+  }
+}

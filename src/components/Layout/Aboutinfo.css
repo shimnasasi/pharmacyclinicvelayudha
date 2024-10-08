@@ -1,0 +1,77 @@
+.about {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.aboutheading {
+    display: flex;
+    flex-direction: column;
+}
+
+.velayudha {
+    color: var(--green);
+    font-size: 27px;
+    /* line-height: 15px; */
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.pharmacy {
+    color: var(--green);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+.paragraph
+{
+    text-align: justify;
+}
+
+.img {
+    height: 450px;
+    width: 600px;
+}
+
+.teamimg {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-height: 450px;
+}
+
+.teamdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.teamheading {
+    display: flex;
+    justify-content: center;
+    color: var(--green);
+}
+
+.details {
+    height: 80px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 0.5px gray;
+    border-radius: 5px;
+}
+.name
+{
+    font-weight: 900;
+    font-size:20px ;
+}

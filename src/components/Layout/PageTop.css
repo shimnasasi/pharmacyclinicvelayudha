@@ -1,0 +1,21 @@
+.PageDetails {
+  width: 100%;
+  height: 16rem;
+  background: url("https://www.keralaayurveda.biz/media/user_2mKbLQa0e7/4893/ayurvedic-treatments-therapies.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.PageName {
+  width: 100%;
+  height: 16rem;
+  background-color: #66964d54;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}

@@ -1,0 +1,29 @@
+.AboutHeritagetop {
+  width: 100%;
+  height: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  padding: 3rem 0;
+  background-color: var(--lightgreen);
+}
+.AboutHeritagetop .heritage {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1rem;
+  color: var(--yellow);
+  /* border: 1px solid; */
+}
+.AboutHeritagepara {
+  padding: 0 18rem;
+}
+.cardsLegacyheritage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+@media(max-width:426px){
+  .AboutHeritagepara{
+    padding: 0;
+  }
+}
